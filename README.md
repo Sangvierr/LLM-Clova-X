@@ -15,7 +15,7 @@
 
 ### Theme 2. Sentimental Analyzer
 - 일시 : 2024.04.05
-- 사용한 데이터셋 : 쿠팡 별점 1점 리뷰
+- 사용한 데이터셋 : -
 - 개요 : Clova X Sentiment API를 사용해서 요약 모델을 생성
 - 참고 : [Naver Cloud Platform](https://medium.com/naver-cloud-platform/%EC%9D%B4%EB%A0%87%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EC%84%B8%EC%9A%94-%ED%85%8D%EC%8A%A4%ED%8A%B8-%EA%B0%90%EC%A0%95-%EB%B6%84%EC%84%9D-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-clova-sentiment-%ED%99%9C%EC%9A%A9%EA%B8%B0-5d9db7b0209b)
 - 모델 생성 후기
