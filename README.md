@@ -27,8 +27,11 @@
     - ```ClovaSentimentAnalyzer```에서도 해당 결과를 인덱싱하여 긍정/부정 판단에 영향을 준 문장을 보여주고 있음
     - 기존 감정 분석 방식보다 속도와 해석 측면에서 매우 우수한 모델임
 - 결과 예시 : 중립인 리뷰에서 각 문장의 판단 결과가 ```neutral```로 나오는 경우가 많음을 볼 수 있음
+  
   1️⃣ 쿠팡 1점 리뷰(부정)
+  
   ![image](https://github.com/Sangvierr/LLM-HyperClova-X/assets/165464507/e4a1a5b0-7535-4603-9fee-4094f09bd10a)
 
   2️⃣ 쿠팡 3점 리뷰(중립)
+  
   ![image](https://github.com/Sangvierr/LLM-HyperClova-X/assets/165464507/419732d1-1c4c-4f4e-8bcb-0b77538f02d9)
