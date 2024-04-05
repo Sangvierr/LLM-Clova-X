@@ -1,4 +1,4 @@
-# LLM-HyperClova-X
+# LLM-Clova-X
 📗 Naver Clova X Model Study
 
 ### Theme 1. Summary Model
