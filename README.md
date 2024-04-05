@@ -1,5 +1,5 @@
 # LLM-HyperClova-X
-📗 Naver HyperClova X Model Study
+📗 Naver Clova X Model Study
 
 ### Theme 1. Summary Model
 - 일시 : 2024.02.20
