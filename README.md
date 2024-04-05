@@ -34,4 +34,5 @@
 
   2️⃣ 쿠팡 3점 리뷰(중립)
   
-  ![image](https://github.com/Sangvierr/LLM-HyperClova-X/assets/165464507/419732d1-1c4c-4f4e-8bcb-0b77538f02d9)
+  ![image](https://github.com/Sangvierr/LLM-HyperClova-X/assets/165464507/16f6f95b-237a-4734-89d8-8d3ec615a545)
+
