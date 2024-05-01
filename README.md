@@ -2,7 +2,7 @@
 📗 LLMs(Large Language Models)
 
 ### Theme 1. Naver Clova Summary
-```ClovaSummary.py```
+🎨 ```ClovaSummary.py```
 - 일시 : 2024.02.20
 - 사용한 데이터셋 : -
 - 개요 : Naver Clova Summary API를 사용해서 요약 모델을 생성
@@ -15,7 +15,7 @@
 | OpenAI GPT | 1. Prompt를 사용해서 모델의 성격이나, 답변의 어조 등 다양한 부분을 조절할 수 있다. <br> 2. 문장을 연결하고, 재구성하는 등 요약문에 더 많은 내용을 담는다. |1. 결과 생성이 오래 걸린다. API 요청 전송과 결과를 받아오는데 약 20초 정도 걸린다. <br> 2. GPT가 오직 요약만을 위한 모델이 아니기 때문에 재구성하는 과정에서 Hallucination(환각효과)이 우려되기도 한다.|
 
 ### Theme 2. Naver Clova Sentimental Analyzer
-```ClovaSentimentAnalyzer.py```
+🎨 ```ClovaSentimentAnalyzer.py```
 - 일시 : 2024.04.05
 - 사용한 데이터셋 : -
 - 개요 : Naver Clova Sentiment API를 사용해서 감정분석 모델을 생성
