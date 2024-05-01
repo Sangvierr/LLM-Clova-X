@@ -38,4 +38,25 @@
   
   ![image](https://github.com/Sangvierr/LLM-HyperClova-X/assets/165464507/55cbb8c9-e67e-44f3-be6a-c639d0034617)
 
+### Theme 3. Fine-tuning LLM with LoRA
+🎨 ```Fine-tuning BERT for text classification with LoRA.ipynb```
+- 일시 : 2024.05.01
+- 사용한 데이터셋 : imdb datasets
+- 개요 : 효율적인 파라미터 갱신 방법(PEFT)을 통한 BERT Fine-tuning
+- 참고 : [Medium](https://medium.com/@karkar.nizar/fine-tuning-bert-for-text-classification-with-lora-f12af7fa95e4)
+- 후기
+  - 일반적인 Fine-tuning은 고성능의 GPU가 필요하고, 오랜 시간이 걸린다는 점에서 부담이 됨
+  - LLM을 목적에 맞게 Fine-tuning하는 것은 특히나 쉽지 않음
+  - PEFT(parameter-efficient fine tuning) 중에서도 LoRA를 활용하여 시간적/경제적 비용을 낮추며 LLM을 Fine-tuning할 수 있다.
+  - 본 예시에서는 100%의 파라미터를 Fine-tuning하는 것과 LoRA를 통해서 0.03%의 파라미터를 Fine-tuning하는 것에 큰 차이가 없음을 확인함
+
+  1️⃣ LoRA를 통한 0.03%만의 파라미터만 업데이트한 결과
+  
+  ![image](https://github.com/Sangvierr/LLM-Study/assets/165464507/28bc2202-fb4b-425b-902a-88a3e30d041c)
+
+  2️⃣ 100%의 파라미터를 업데이터한 결과
+
+  ![image](https://github.com/Sangvierr/LLM-Study/assets/165464507/4d98c606-491f-447e-9703-5f5b328a78d8)
+
+
 
