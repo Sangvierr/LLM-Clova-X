@@ -15,7 +15,7 @@ class ClovaSentimentAnalyzer:
                         "Content-Type": "application/json"}
         self.data = {"content": content}
 
-    def analyze_request(self):
+    def send_request(self):
         API_data = json.dumps(self.data, indent=4, sort_keys=True) # API 전송을 위한 json 형식으로 전환
         response = requests.post(self.url, data=API_data, headers=self.headers) # API 요청 전송
         rescode = response.status_code
@@ -23,7 +23,7 @@ class ClovaSentimentAnalyzer:
         return rescode, response
     
     def get_result(self):
-        rescode, response = self.analyze_request()
+        rescode, response = self.send_request()
 
         # 에러 확인 및 결과 출력
         if(rescode == 200):
