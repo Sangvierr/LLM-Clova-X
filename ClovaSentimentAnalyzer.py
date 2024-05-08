@@ -25,9 +25,9 @@ class ClovaSentimentAnalyzer:
     def get_result(self):
         rescode, response = self.send_request()
 
-        # 에러 확인 및 결과 출력
+        # 에러 확인 및 결과를 json 형식으로 바꾸기
         if(rescode == 200):
-            json_response = response.json() # 결과를 json 형식으로 바꾸기
+            json_response = response.json()
         else:
             print("Error : " + response.text)
 
