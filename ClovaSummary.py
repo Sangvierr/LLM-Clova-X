@@ -18,23 +18,16 @@ class ClovaSummary:
                         "Content-Type": "application/json"} # 요청 헤더
         self.url = url 
         self.title = title 
-        self.content = content 
-        self.language = language 
-        self.model = model 
-        if not isinstance(tone, str): # 사용자가 입력한 값이 문자열이 아닌 경우 
-            try:
-                self.tone = str(tone) 
-            except:
-                self.tone = tone
-        else: 
-            self.tone = tone 
-        if not isinstance(summaryCount, str): # 사용자가 입력한 값이 문자열이 아닌 경우 
-            try:
-                self.summaryCount = str(summaryCount)
-            except:
-                self.summaryCount = summaryCount 
-        else:
-            self.summaryCount = summaryCount 
+        self.content = content
+
+        # 문자열로 입력 받아야 하는 파라미터를 문자열로 변환
+        self.language = str(language)
+        self.model = str(model)
+        self.tone = str(tone)
+        self.summaryCount = str(summaryCount)
+
+        # For Debugging
+        print(f"Initialized ClovaSummary with language={self.language}, model={self.model}, tone={self.tone}, summaryCount={self.summaryCount}")
 
     def send_request(self):
         data = {"document" : {"title": self.title, "content" : self.content}, 
